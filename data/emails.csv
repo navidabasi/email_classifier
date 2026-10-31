@@ -1,0 +1,41 @@
+id,subject,body,label
+1,Cancel reservation,I need to cancel the two seats I reserved yesterday. What is the cancellation process?,booking_follow_up
+2,Correct a guest name,One surname on my booking is misspelled. Could you update it before the visit?,booking_follow_up
+3,Tour guide vacancies,Are you currently hiring part-time guides for the autumn season?,unrelated
+4,Volunteer opportunities,Do you accept volunteers for educational workshops this winter?,unrelated
+5,Change participant count,We have a confirmed booking for five people. Can I remove one guest?,booking_follow_up
+6,Object found outside,Someone left a wallet near your front gate. Is there a reception desk where I can hand it over?,unrelated
+7,Accessibility before reserving,"Before I make a reservation, is the walking tour wheelchair accessible?",booking_inquiry
+8,Meeting point for booked tour,My booking is for tomorrow morning. Where exactly should our group meet the guide?,booking_follow_up
+9,Proceed with the booking,We accept your offer for the private tour on July 8. Please finalize it.,confirmation
+10,Family admission prices,What would it cost to reserve entry for two adults and one child next week?,booking_inquiry
+11,Reply to proposed schedule,The Sunday morning slot suits us. We agree to reserve the two tickets you offered.,confirmation
+12,Final acceptance,We are happy with the 3 p.m. museum tour and confirm our choice.,confirmation
+13,Details approved,The names and date in your proposal are correct. Please issue the booking now.,confirmation
+14,Student group visit,Our school may bring 18 students in December. Do you offer group rates and open dates?,booking_inquiry
+15,Running late to the tour,We already have tickets for the 10 a.m. tour and may arrive 15 minutes late. What should we do?,booking_follow_up
+16,Please finalize our reservation,The quoted total works for us. Go ahead and complete the booking for our party of four.,confirmation
+17,Gift booking questions,Can I purchase a tour for someone else without choosing the exact date yet?,booking_inquiry
+18,Tour time agreed,"Yes, the 9:30 a.m. guided visit is perfect. Please consider our reservation confirmed.",confirmation
+19,Opening hours for the shop,What time does the gift shop close on weekdays?,unrelated
+20,Accepting the offered slot,Thanks for holding two places for Friday at 2 p.m. I confirm that we will take them.,confirmation
+21,Deposit paid,I paid the deposit for the new tour arrangement and confirm we want to proceed.,confirmation
+22,Missing entry vouchers,"Our reservation was confirmed last week, but the tickets never reached my inbox. Can you resend them?",booking_follow_up
+23,Refund status,I canceled last Thursday and am still waiting for the refund. Can you check its status?,booking_follow_up
+24,Website spelling error,There is a typo on the history page of your website. The heading spells Renaissance incorrectly.,unrelated
+25,Supplier introduction,Our company prints museum brochures. Who handles vendor proposals?,unrelated
+26,Evening tour enquiry,I would like to reserve four places for the evening route. Which dates are available next month?,booking_inquiry
+27,Checking Tuesday slots,Can you confirm whether the 10 a.m. tour on Tuesday still has openings?,booking_inquiry
+28,Private tour request,Could we arrange a private guided visit for six people on November 12?,booking_inquiry
+29,Approve reservation quote,I accept the price of 80 euros for our group. Please secure the four spots.,confirmation
+30,Weekend ticket availability,"Hi, are there three spaces left on the museum tour this Saturday afternoon?",booking_inquiry
+31,Research archive access,Is the historical photo archive open to academic researchers?,unrelated
+32,Booking date check,"I received a reminder for my existing booking, but the date shown looks wrong. Could you verify it?",booking_follow_up
+33,Lost umbrella,I left a blue umbrella in your lobby. Has anyone handed it in?,unrelated
+34,Receipt requested,Can you send an invoice for the reservation I paid for earlier this month?,booking_follow_up
+35,Confirmation of group seats,I have reviewed the details and approve the reservation for 12 students.,confirmation
+36,Last-minute booking,"Is it possible to book a ticket for tomorrow morning, or are tours sold out?",booking_inquiry
+37,Partnership proposal,We run a neighborhood arts festival and would like to discuss a promotional partnership.,unrelated
+38,Press interview request,I write for a local magazine and would like to interview your curator about the new exhibition.,unrelated
+39,Move an existing booking,I booked the walking tour for Monday. Could you change it to Wednesday instead?,booking_follow_up
+40,Language options for a new visit,Are any French-language tours available on the first weekend of June?,booking_inquiry
