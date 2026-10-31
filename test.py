@@ -15,7 +15,4 @@ with open(csv_path, newline='', encoding='utf-8') as f:
 
     for row in reader:
         predicted_label = classify_email(row['subject'], row['body'])
-        if predicted_label == row['label']:
-            print(f"Subject: {row['subject']}, Predicted: {predicted_label}, Actual: {row['label']} - Correct")
-        else:
-            print(f"Subject: {row['subject']}, Predicted: {predicted_label}, Actual: {row['label']} - Incorrect")
+        print("The avg accuracy of the model is: ", (predicted_label == row['label']) / len(list(reader)))
