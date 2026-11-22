@@ -1,4 +1,4 @@
-def classify_email(subject: str, body: str) -> str:
+def classify_email(subject: str, body: str) -> list[str]:
     """
     considering our email data has 4 columns: id, subject, body, label, we dont need id, and ofc we dont need label, so we only use subject and body
     the function takes both, process them and then returns the label of the email as: confirmation, booking_inquiry, booking_follow_up, unrelated
@@ -49,13 +49,13 @@ def classify_email(subject: str, body: str) -> str:
 
     # check for the keywords in the email_content and returning the corresoponding label.
     if any(keyword in email_content for keyword in confirmation_keywords):
-        return "confirmation"
+        return ["confirmation"]
 
     elif any(keyword in email_content for keyword in booking_inquiry_keywords):
-        return "booking_inquiry"
+        return ["booking_inquiry"]
 
     elif any(keyword in email_content for keyword in booking_follow_up_keywords):
-        return "booking_follow_up"
+        return ["booking_follow_up"]
 
     else:
-        return "unrelated"
+        return ["unrelated"]
